@@ -63,7 +63,6 @@ app.get("/users/:id", async (req, res) => {
   });
 });
 
-
 app.put('/users/update', async(req, res) => {
     const user = req.body;
     const id = parseInt(user.id);
